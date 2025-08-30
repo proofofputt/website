@@ -87,7 +87,7 @@ const HomePage = () => {
       <div className="p-8 rounded-lg max-w-4xl mx-auto" style={{backgroundColor: 'var(--masters-green-medium)'}}>
         <h2 className="text-2xl font-bold mb-4" style={{color: 'var(--highlighter-yellow)'}}>Ready to elevate your game?</h2>
         <p className="mb-6" style={{color: 'var(--text-white-secondary)'}}>
-          Join players who've discovered that consistent practice with measurable results 
+          Join players who&apos;ve discovered that consistent practice with measurable results 
           is the key to putting excellence.
         </p>
         <div className="flex justify-center space-x-4">

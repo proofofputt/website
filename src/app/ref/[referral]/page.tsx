@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+// import { notFound } from 'next/navigation';
 
 interface ReferralPageProps {
   params: {
@@ -44,7 +44,7 @@ const ReferralPage = ({ params }: ReferralPageProps) => {
       <div className="bg-gray-900 rounded-lg p-8 max-w-2xl mx-auto">
         <h3 className="text-2xl font-semibold mb-4 text-green-400">Special Invitation</h3>
         <p className="text-gray-400">
-          You've been personally invited to experience next-generation putting training. 
+          You&apos;ve been personally invited to experience next-generation putting training. 
           Join thousands of players improving their game with AI-powered precision tracking.
         </p>
       </div>
