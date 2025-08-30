@@ -1,13 +1,13 @@
 // import { notFound } from 'next/navigation';
 
 interface ReferralPageProps {
-  params: {
+  params: Promise<{
     referral: string;
-  };
+  }>;
 }
 
-const ReferralPage = ({ params }: ReferralPageProps) => {
-  const { referral } = params;
+const ReferralPage = async ({ params }: ReferralPageProps) => {
+  const { referral } = await params;
   
   // Decode referral parameter
   const decodedReferral = decodeURIComponent(referral);
