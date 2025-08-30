@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  /* Masters Inspired Dark Theme - Match webapp colors */
+  --masters-green-dark: hsl(137, 92%, 10%);      /* Deep green for main background */
+  --masters-green-medium: hsl(105, 100%, 18%);    /* Lighter shade for surfaces */
+  --masters-green-light: #188400;                 /* For borders or subtle highlights */
+  --highlighter-yellow: #FFD700;                  /* Vibrant accent for key elements */
+  --highlighter-yellow-hover: #d58114;            /* Darker accent for hover states */
+  --text-white: #ffffff;                          /* Primary text color */
+  --text-white-secondary: #adb5bd;                /* Lighter gray for secondary text */
+}
+
+body {
+  background-color: var(--masters-green-dark);
+  color: var(--text-white);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
