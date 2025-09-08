@@ -11,7 +11,7 @@ const HomePage = () => {
         </p>
         
         <div className="flex justify-center space-x-6 mb-8">
-          <a href="https://app.proofofputt.com" 
+          <a href="https://app.proofofputt.com/login" 
              className="px-8 py-4 rounded-lg text-xl font-semibold transition-colors"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Launch App
@@ -91,7 +91,7 @@ const HomePage = () => {
           is the key to putting excellence.
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="https://app.proofofputt.com" 
+          <a href="https://app.proofofputt.com/login" 
              className="px-6 py-3 rounded-lg font-semibold transition-colors"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Start Training

@@ -12,18 +12,18 @@ const Header = () => {
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <a href="https://app.proofofputt.com" 
-                 className="transition-colors hover:opacity-80"
-                 style={{color: 'var(--text-white)'}}>
-                Launch App
-              </a>
-            </li>
-            <li>
               <Link href="/download" 
                     className="transition-colors hover:opacity-80"
                     style={{color: 'var(--text-white)'}}>
                 Download
               </Link>
+            </li>
+            <li>
+              <a href="https://app.proofofputt.com/login" 
+                 className="px-4 py-2 rounded-lg font-semibold transition-colors hover:opacity-90"
+                 style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
+                Login
+              </a>
             </li>
           </ul>
         </nav>
