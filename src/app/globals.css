@@ -8,7 +8,7 @@
   --highlighter-yellow: #FFD700;                  /* Vibrant accent for key elements */
   --highlighter-yellow-hover: #d58114;            /* Darker accent for hover states */
   --text-white: #ffffff;                          /* Primary text color */
-  --text-white-secondary: #adb5bd;                /* Lighter gray for secondary text */
+  --text-white-secondary: #ffffff;                /* White for secondary text - better contrast */
 }
 
 body {

@@ -21,10 +21,10 @@ const ReferralPage = async ({ params }: ReferralPageProps) => {
       </div>
       
       <h1 className="text-6xl font-extrabold mb-6 text-green-400">Proof of Putt</h1>
-      <p className="text-2xl mb-8 text-gray-300">Join the putting revolution</p>
+      <p className="text-2xl mb-8 text-white">Join the putting revolution</p>
       
       <div className="max-w-4xl mx-auto mb-12">
-        <p className="text-lg text-gray-400 mb-8">
+        <p className="text-lg text-white mb-8">
           {decodedReferral} recommends Proof of Putt for AI-powered putting training. 
           Track your progress, compete with friends, and elevate your game with precision analytics.
         </p>
@@ -43,7 +43,7 @@ const ReferralPage = async ({ params }: ReferralPageProps) => {
 
       <div className="bg-gray-900 rounded-lg p-8 max-w-2xl mx-auto">
         <h3 className="text-2xl font-semibold mb-4 text-green-400">Special Invitation</h3>
-        <p className="text-gray-400">
+        <p className="text-white">
           You&apos;ve been personally invited to experience next-generation putting training. 
           Join thousands of players improving their game with AI-powered precision tracking.
         </p>
