@@ -11,10 +11,10 @@ const HomePage = () => {
         </p>
         
         <div className="flex justify-center space-x-6 mb-8">
-          <a href="https://app.proofofputt.com/login" 
+          <a href="/features" 
              className="px-8 py-4 rounded-lg text-xl font-semibold transition-colors"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
-            Launch App
+            Feature Overview
           </a>
           <a href="/download" 
              className="px-8 py-4 rounded-lg text-xl font-semibold transition-colors border-2"
