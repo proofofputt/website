@@ -1,7 +1,17 @@
+import Image from 'next/image';
+
 const HomePage = () => {
   return (
     <div className="text-center py-16">
-      <h1 className="text-6xl font-extrabold mb-6" style={{color: 'var(--highlighter-yellow)'}}>Proof of Putt</h1>
+      <div className="mb-6 flex justify-center">
+        <Image 
+          src="/POP.Proof_Of_Putt.Log.576.png" 
+          alt="Proof of Putt Logo" 
+          width={300} 
+          height={300}
+          priority
+        />
+      </div>
       <p className="text-2xl mb-12" style={{color: 'var(--text-white-secondary)'}}>Where practice meets competition</p>
       
       <div className="max-w-4xl mx-auto mb-12">
