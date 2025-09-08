@@ -12,10 +12,10 @@ const HomePage = () => {
           priority
         />
       </div>
-      <p className="text-2xl mb-12" style={{color: 'var(--text-white-secondary)'}}>Where practice meets competition</p>
+      <p className="text-2xl mb-12" style={{color: 'var(--text-white)'}}>Where practice meets competition</p>
       
       <div className="max-w-4xl mx-auto mb-12">
-        <p className="text-lg mb-8" style={{color: 'var(--text-white-secondary)'}}>
+        <p className="text-lg mb-8" style={{color: 'var(--text-white)'}}>
           Every putt matters. Every stroke counts. Transform your putting practice into verifiable performance 
           that opens doors to remote competition, detailed analytics, and skill validation.
         </p>
@@ -33,7 +33,7 @@ const HomePage = () => {
           </a>
         </div>
         
-        <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>
+        <p className="text-sm" style={{color: 'var(--text-white)'}}>
           Start with our web app, upgrade to desktop for full computer vision tracking
         </p>
       </div>
@@ -46,21 +46,21 @@ const HomePage = () => {
               <span className="text-xl">🏌️</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>Practice Anywhere</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Home, office, or course - your putting green becomes a training ground</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Home, office, or course - your putting green becomes a training ground</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <span className="text-xl">⚡</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>Instant Feedback</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Know your make percentage, streaks, and improvement areas immediately</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Know your make percentage, streaks, and improvement areas immediately</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <span className="text-xl">🎯</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>Measurable Progress</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Track consistency, speed, and accuracy over time</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Track consistency, speed, and accuracy over time</p>
               </div>
             </div>
           </div>
@@ -73,21 +73,21 @@ const HomePage = () => {
               <span className="text-xl">🏆</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>Remote Duels</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Challenge friends anywhere with trusted, verifiable results</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Challenge friends anywhere with trusted, verifiable results</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <span className="text-xl">🌐</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>Global Leagues</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Join tournaments and competitions with players worldwide</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Join tournaments and competitions with players worldwide</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <span className="text-xl">💡</span>
               <div>
                 <h4 className="font-semibold" style={{color: 'var(--text-white)'}}>AI Insights</h4>
-                <p className="text-sm" style={{color: 'var(--text-white-secondary)'}}>Get personalized coaching recommendations based on your data</p>
+                <p className="text-sm" style={{color: 'var(--text-white)'}}>Get personalized coaching recommendations based on your data</p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ const HomePage = () => {
 
       <div className="p-8 rounded-lg max-w-4xl mx-auto" style={{backgroundColor: 'var(--masters-green-medium)'}}>
         <h2 className="text-2xl font-bold mb-4" style={{color: 'var(--highlighter-yellow)'}}>Ready to elevate your game?</h2>
-        <p className="mb-6" style={{color: 'var(--text-white-secondary)'}}>
+        <p className="mb-6" style={{color: 'var(--text-white)'}}>
           Join players who&apos;ve discovered that consistent practice with measurable results 
           is the key to putting excellence.
         </p>
