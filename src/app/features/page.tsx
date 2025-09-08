@@ -84,43 +84,43 @@ const FeaturesPage = () => {
         <h2 className="text-3xl font-bold mb-6" style={{color: 'var(--highlighter-yellow)'}}>
           🎮 Session Categories
         </h2>
-        <div className="space-y-6">
+        <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-6" style={{backgroundColor: 'var(--masters-green-medium)'}}>
-            <h3 className="text-2xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Practice Sessions</h3>
-            <p className="mb-4" style={{color: 'var(--text-white)'}}>
+            <h3 className="text-xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Practice Sessions</h3>
+            <p className="mb-4 text-sm" style={{color: 'var(--text-white)'}}>
               Unlimited practice mode for skill development and consistency training.
             </p>
-            <ul className="space-y-2 text-sm" style={{color: 'var(--text-white)'}}>
+            <ul className="space-y-1 text-sm" style={{color: 'var(--text-white)'}}>
               <li>✓ No time limits or pressure</li>
               <li>✓ Focus on technique and rhythm</li>
-              <li>✓ Track personal records and improvements</li>
-              <li>✓ Analyze patterns and identify weaknesses</li>
+              <li>✓ Track personal records</li>
+              <li>✓ Identify weaknesses</li>
             </ul>
           </div>
 
           <div className="rounded-lg p-6" style={{backgroundColor: 'var(--masters-green-medium)'}}>
-            <h3 className="text-2xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Duels</h3>
-            <p className="mb-4" style={{color: 'var(--text-white)'}}>
+            <h3 className="text-xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Duels</h3>
+            <p className="mb-4 text-sm" style={{color: 'var(--text-white)'}}>
               Head-to-head competitions with friends or rivals, anywhere in the world.
             </p>
-            <ul className="space-y-2 text-sm" style={{color: 'var(--text-white)'}}>
-              <li>⚔️ Challenge specific players directly</li>
-              <li>⚔️ Timed sessions for fair competition</li>
+            <ul className="space-y-1 text-sm" style={{color: 'var(--text-white)'}}>
+              <li>⚔️ Challenge players directly</li>
+              <li>⚔️ Timed fair competition</li>
               <li>⚔️ Real-time status updates</li>
               <li>⚔️ Win/loss record tracking</li>
             </ul>
           </div>
 
           <div className="rounded-lg p-6" style={{backgroundColor: 'var(--masters-green-medium)'}}>
-            <h3 className="text-2xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Leagues</h3>
-            <p className="mb-4" style={{color: 'var(--text-white)'}}>
+            <h3 className="text-xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Leagues</h3>
+            <p className="mb-4 text-sm" style={{color: 'var(--text-white)'}}>
               Multi-round tournaments with structured competition and rankings.
             </p>
-            <ul className="space-y-2 text-sm" style={{color: 'var(--text-white)'}}>
-              <li>🏆 Multiple rounds with time windows</li>
-              <li>🏆 Automated bracket progression</li>
+            <ul className="space-y-1 text-sm" style={{color: 'var(--text-white)'}}>
+              <li>🏆 Multiple round windows</li>
+              <li>🏆 Automated progression</li>
               <li>🏆 League-wide leaderboards</li>
-              <li>🏆 Championship scoring system</li>
+              <li>🏆 Championship scoring</li>
             </ul>
           </div>
         </div>
