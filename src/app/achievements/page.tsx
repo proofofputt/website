@@ -26,7 +26,7 @@ const AchievementsPage = () => {
               <ul className="space-y-2 text-sm" style={{color: 'var(--text-white)'}}>
                 <li><strong>Total Putts:</strong> Every attempt tracked</li>
                 <li><strong>Makes:</strong> Successful putts counted</li>
-                <li><strong>Misses:</strong> Attempts that didn't score</li>
+                <li><strong>Misses:</strong> Attempts that didn&apos;t score</li>
                 <li><strong>Make Percentage:</strong> Accuracy calculation</li>
                 <li><strong>Session Duration:</strong> Time from first to last putt</li>
               </ul>
@@ -404,7 +404,7 @@ const AchievementsPage = () => {
                 <li className="flex items-start">
                   <span className="text-lg mr-2">🎯</span>
                   <div>
-                    <strong>Next Milestones:</strong> Always know what achievement you're working
+                    <strong>Next Milestones:</strong> Always know what achievement you&apos;re working
                     toward next and how close you are to reaching it.
                   </div>
                 </li>
