@@ -20,14 +20,19 @@ const HomePage = () => {
           that opens doors to remote competition, detailed analytics, and skill validation.
         </p>
         
-        <div className="flex justify-center space-x-6 mb-8">
-          <a href="/features" 
-             className="px-8 py-4 rounded-lg text-xl font-semibold transition-colors"
+        <div className="flex justify-center space-x-4 mb-8">
+          <a href="/features"
+             className="px-6 py-4 rounded-lg text-lg font-semibold transition-colors"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Feature Overview
           </a>
-          <a href="/download" 
-             className="px-8 py-4 rounded-lg text-xl font-semibold transition-colors border-2"
+          <a href="/app-showcase"
+             className="px-6 py-4 rounded-lg text-lg font-semibold transition-colors border-2"
+             style={{backgroundColor: 'var(--masters-green-medium)', borderColor: 'var(--masters-green-light)', color: 'var(--text-white)'}}>
+            App Showcase
+          </a>
+          <a href="/download"
+             className="px-6 py-4 rounded-lg text-lg font-semibold transition-colors border-2"
              style={{backgroundColor: 'var(--masters-green-medium)', borderColor: 'var(--masters-green-light)', color: 'var(--text-white)'}}>
             Download Desktop
           </a>
