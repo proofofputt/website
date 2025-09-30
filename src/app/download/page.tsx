@@ -49,7 +49,7 @@ const DownloadPage = () => {
             <ol className="space-y-2 text-sm" style={{color: 'var(--text-white-secondary)'}}>
               <li>1. Download the DMG file for your Mac type</li>
               <li>2. Double-click to mount the disk image</li>
-              <li>3. Drag "Proof of Putt" to Applications folder</li>
+              <li>3. Drag &quot;Proof of Putt&quot; to Applications folder</li>
               <li>4. Launch from Applications (may need to allow in Security settings)</li>
               <li>5. Sign in with your Proof of Putt account</li>
               <li>6. Calibrate your camera for putting area</li>
