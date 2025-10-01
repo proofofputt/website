@@ -1,27 +1,27 @@
 const FeaturesPage = () => {
   return (
-    <div className="py-16 max-w-6xl mx-auto px-4">
-      <h1 className="text-5xl font-extrabold mb-4 text-center" style={{color: 'var(--highlighter-yellow)'}}>
+    <div className="py-8 sm:py-16 max-w-6xl mx-auto px-4">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-center" style={{color: 'var(--highlighter-yellow)'}}>
         Feature Overview
       </h1>
-      <p className="text-xl text-center mb-12" style={{color: 'var(--text-white)'}}>
+      <p className="text-base sm:text-lg md:text-xl text-center mb-8 sm:mb-12" style={{color: 'var(--text-white)'}}>
         Comprehensive performance tracking and competitive play
       </p>
 
       {/* Data Tracking Overview */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6" style={{color: 'var(--highlighter-yellow)'}}>
+      <section className="mb-8 sm:mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6" style={{color: 'var(--highlighter-yellow)'}}>
           📊 Advanced Data Tracking
         </h2>
-        <div className="rounded-lg p-6 mb-8" style={{backgroundColor: 'var(--masters-green-medium)'}}>
-          <p className="mb-4" style={{color: 'var(--text-white)'}}>
-            Proof of Putt uses cutting-edge computer vision technology to track every putt with precision. 
+        <div className="rounded-lg p-4 sm:p-6 mb-6 sm:mb-8" style={{backgroundColor: 'var(--masters-green-medium)'}}>
+          <p className="mb-4 text-sm sm:text-base" style={{color: 'var(--text-white)'}}>
+            Proof of Putt uses cutting-edge computer vision technology to track every putt with precision.
             Our system captures comprehensive data points that transform your practice into measurable progress.
           </p>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <div>
-              <h4 className="font-semibold mb-2" style={{color: 'var(--text-white)'}}>Real-Time Metrics</h4>
-              <ul className="space-y-1 text-sm" style={{color: 'var(--text-white)'}}>
+              <h4 className="font-semibold mb-2 text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Real-Time Metrics</h4>
+              <ul className="space-y-1 text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>
                 <li>• Makes and misses with classification</li>
                 <li>• Consecutive streak tracking</li>
                 <li>• Putts per minute (PPM)</li>
@@ -30,8 +30,8 @@ const FeaturesPage = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2" style={{color: 'var(--text-white)'}}>Advanced Analytics</h4>
-              <ul className="space-y-1 text-sm" style={{color: 'var(--text-white)'}}>
+              <h4 className="font-semibold mb-2 text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Advanced Analytics</h4>
+              <ul className="space-y-1 text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>
                 <li>• Fastest 21 consecutive makes</li>
                 <li>• Most makes in 60 seconds</li>
                 <li>• Make percentage by category</li>
@@ -80,11 +80,11 @@ const FeaturesPage = () => {
       </section>
 
       {/* Session Categories */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-6" style={{color: 'var(--highlighter-yellow)'}}>
+      <section className="mb-8 sm:mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6" style={{color: 'var(--highlighter-yellow)'}}>
           🎮 Session Categories
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           <div className="rounded-lg p-6" style={{backgroundColor: 'var(--masters-green-medium)'}}>
             <h3 className="text-xl font-bold mb-3" style={{color: 'var(--highlighter-yellow)'}}>Practice Sessions</h3>
             <p className="mb-4 text-sm" style={{color: 'var(--text-white)'}}>
