@@ -16,6 +16,9 @@ const HomePage = () => {
       <p className="text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 px-4" style={{color: 'var(--text-white)'}}>Transform practice into verifiable performance</p>
 
       <div className="max-w-4xl mx-auto mb-8 sm:mb-12 px-4">
+        <p className="text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed" style={{color: 'var(--text-white)'}}>
+          Track every putt with computer vision. Compete remotely with friends. Build a verified career record.
+        </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
           <a href="/features"
@@ -40,41 +43,33 @@ const HomePage = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto mb-12 sm:mb-16 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-5xl mx-auto mb-12 sm:mb-16 px-4">
         <div className="flex items-start space-x-3 text-left">
           <span className="text-2xl flex-shrink-0">🏌️</span>
           <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Practice Anywhere</h4>
-          </div>
-        </div>
-        <div className="flex items-start space-x-3 text-left">
-          <span className="text-2xl flex-shrink-0">⚡</span>
-          <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Instant Analytics</h4>
-          </div>
-        </div>
-        <div className="flex items-start space-x-3 text-left">
-          <span className="text-2xl flex-shrink-0">🏆</span>
-          <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Remote Duels</h4>
-          </div>
-        </div>
-        <div className="flex items-start space-x-3 text-left">
-          <span className="text-2xl flex-shrink-0">🌐</span>
-          <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Global Leagues</h4>
+            <h4 className="font-semibold text-sm sm:text-base mb-1" style={{color: 'var(--text-white)'}}>Practice Anywhere</h4>
+            <p className="text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>Turn any putting green into a tracked training ground</p>
           </div>
         </div>
         <div className="flex items-start space-x-3 text-left">
           <span className="text-2xl flex-shrink-0">📊</span>
           <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Career Tracking</h4>
+            <h4 className="font-semibold text-sm sm:text-base mb-1" style={{color: 'var(--text-white)'}}>Computer Vision Tracking</h4>
+            <p className="text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>Real-time analytics on every putt, streak, and stat</p>
+          </div>
+        </div>
+        <div className="flex items-start space-x-3 text-left">
+          <span className="text-2xl flex-shrink-0">🏆</span>
+          <div>
+            <h4 className="font-semibold text-sm sm:text-base mb-1" style={{color: 'var(--text-white)'}}>Remote Competition</h4>
+            <p className="text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>Challenge anyone, anywhere with trusted results</p>
           </div>
         </div>
         <div className="flex items-start space-x-3 text-left">
           <span className="text-2xl flex-shrink-0">🔗</span>
           <div>
-            <h4 className="font-semibold text-sm sm:text-base" style={{color: 'var(--text-white)'}}>Verified Achievements</h4>
+            <h4 className="font-semibold text-sm sm:text-base mb-1" style={{color: 'var(--text-white)'}}>Blockchain Verification</h4>
+            <p className="text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>Permanent, cryptographically verified achievements</p>
           </div>
         </div>
       </div>
