@@ -1,4 +1,23 @@
+'use client';
+
+import { trackClick, trackDownload } from '@/lib/analytics';
+
 const DownloadPage = () => {
+  const handleDownloadClick = () => {
+    trackDownload('ProofOfPutt-0.1.1-aarch64.dmg', 'dmg');
+    trackClick('download_macos_desktop', {
+      version: '0.1.1',
+      platform: 'macOS',
+      architecture: 'aarch64'
+    });
+  };
+
+  const handleWebAppClick = () => {
+    trackClick('launch_web_app', {
+      source: 'download_page'
+    });
+  };
+
   return (
     <div className="text-center py-16">
       <h1 className="text-3xl sm:text-4xl font-extrabold mb-8 sm:mb-12" style={{color: 'var(--highlighter-yellow)'}}>Download</h1>
@@ -15,6 +34,7 @@ const DownloadPage = () => {
           </p>
           <a href="/ProofOfPutt-0.1.1-aarch64.dmg"
              download
+             onClick={handleDownloadClick}
              className="px-6 py-3 rounded-lg font-semibold transition-colors inline-block mb-4"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Download for macOS (Apple Silicon)
@@ -27,6 +47,7 @@ const DownloadPage = () => {
             Access Proof of Putt from any device with our web application.
           </p>
           <a href="https://app.proofofputt.com/login"
+             onClick={handleWebAppClick}
              className="px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Launch Web App

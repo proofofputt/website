@@ -1,6 +1,25 @@
+'use client';
+
 import Image from 'next/image';
+import { trackClick } from '@/lib/analytics';
 
 const HomePage = () => {
+  const handleFeatureClick = () => {
+    trackClick('view_features', { source: 'home_page' });
+  };
+
+  const handleShowcaseClick = () => {
+    trackClick('view_app_showcase', { source: 'home_page' });
+  };
+
+  const handleDownloadClick = () => {
+    trackClick('goto_download', { source: 'home_page' });
+  };
+
+  const handleLaunchAppClick = () => {
+    trackClick('launch_app_cta', { source: 'home_page_bottom' });
+  };
+
   return (
     <div className="text-center py-8 sm:py-16 px-4">
       <div className="mb-6 flex justify-center">
@@ -22,16 +41,19 @@ const HomePage = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
           <a href="/features"
+             onClick={handleFeatureClick}
              className="px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors text-center"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Feature Overview
           </a>
           <a href="/app-showcase"
+             onClick={handleShowcaseClick}
              className="px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors border-2 text-center"
              style={{backgroundColor: 'var(--masters-green-medium)', borderColor: 'var(--masters-green-light)', color: 'var(--text-white)'}}>
             App Showcase
           </a>
           <a href="/download"
+             onClick={handleDownloadClick}
              className="px-4 sm:px-6 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors border-2 text-center"
              style={{backgroundColor: 'var(--masters-green-medium)', borderColor: 'var(--masters-green-light)', color: 'var(--text-white)'}}>
             Download Desktop
@@ -78,6 +100,7 @@ const HomePage = () => {
         <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6" style={{color: 'var(--highlighter-yellow)'}}>Start tracking today</h2>
         <div className="flex justify-center">
           <a href="https://app.proofofputt.com/login"
+             onClick={handleLaunchAppClick}
              className="px-6 py-3 rounded-lg font-semibold transition-colors text-center text-base sm:text-lg"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
             Launch App
