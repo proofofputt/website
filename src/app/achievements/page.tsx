@@ -54,14 +54,14 @@ const AchievementsPage = () => {
         </div>
       </section>
 
-      {/* Blockchain Certificates Section */}
+      {/* Open Timestamps Certificates Section */}
       <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6" style={{color: 'var(--highlighter-yellow)'}}>
-          🔗 Blockchain Certificates
+          🔗 Open Timestamps Certificates
         </h2>
         <div className="rounded-lg p-4 sm:p-6" style={{backgroundColor: 'var(--masters-green-medium)'}}>
           <p className="mb-4 sm:mb-6 text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>
-            Premium members receive permanent, verifiable achievement certificates via blockchain timestamping.
+            Premium members receive permanent, verifiable achievement certificates via Bitcoin timestamping.
             Your accomplishments are cryptographically secured and will exist as long as the internet itself.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-xs sm:text-sm" style={{color: 'var(--text-white)'}}>
