@@ -103,7 +103,7 @@ const HomePage = () => {
              onClick={handleLaunchAppClick}
              className="px-6 py-3 rounded-lg font-semibold transition-colors text-center text-base sm:text-lg"
              style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
-            Launch App
+            Launch Stats Dashboard
           </a>
         </div>
       </div>

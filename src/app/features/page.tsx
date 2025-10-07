@@ -99,7 +99,7 @@ const FeaturesPage = () => {
             <a href="https://app.proofofputt.com/login"
                className="px-6 py-3 rounded-lg font-semibold transition-colors"
                style={{backgroundColor: 'var(--highlighter-yellow)', color: 'var(--masters-green-dark)'}}>
-              Launch App
+              Launch Stats Dashboard
             </a>
             <a href="/download"
                className="px-6 py-3 rounded-lg font-semibold transition-colors border-2"
