@@ -4,9 +4,9 @@ import { trackClick, trackDownload } from '@/lib/analytics';
 
 const DownloadPage = () => {
   const handleDownloadClick = () => {
-    trackDownload('ProofOfPutt-0.1.1-aarch64.dmg', 'dmg');
+    trackDownload('ProofOfPutt-0.1.2-aarch64.dmg', 'dmg');
     trackClick('download_macos_desktop', {
-      version: '0.1.1',
+      version: '0.1.2',
       platform: 'macOS',
       architecture: 'aarch64'
     });
@@ -32,7 +32,7 @@ const DownloadPage = () => {
           <p className="mb-6 text-xs sm:text-sm" style={{color: 'var(--text-white-secondary)'}}>
             ✅ Officially notarized by Apple for secure installation.
           </p>
-          <a href="/ProofOfPutt-0.1.1-aarch64.dmg"
+          <a href="/ProofOfPutt-0.1.2-aarch64.dmg"
              download
              onClick={handleDownloadClick}
              className="px-6 py-3 rounded-lg font-semibold transition-colors inline-block mb-4"
