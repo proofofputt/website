@@ -263,7 +263,7 @@ class Analytics {
       eventCategory: 'conversion',
       eventProperties: {
         ...properties,
-        value
+        ...(value !== undefined && { value })
       }
     });
   }
