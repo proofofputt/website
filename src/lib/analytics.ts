@@ -125,7 +125,7 @@ class Analytics {
   constructor() {
     if (typeof window === 'undefined') {
       // SSR - create minimal instance
-      this.session = null as any;
+      this.session = {} as AnalyticsSession;
       this.pageLoadTime = 0;
       return;
     }
